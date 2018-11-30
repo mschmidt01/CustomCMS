@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pages>
+<page name="home">
+    <id>0</id>
+    <title>Start</title>
+    <content>
+        <![CDATA[<h1>Startseite</h1>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+         ]]>
+        </content>
+    <path>home</path>
+    <lang>it</lang>
+    <description>Dieser Beschreibungstext soll den Inhalt dieses Dokumentes erläutern.</description>
+    <author>Melvin Schmidt</author>
+    <keywords>Start, CMS</keywords>
+</page>
+<page name="contact">
+    <id>1</id>
+    <title>Kontakt</title>
+    <content>
+        <![CDATA[<h1>Kontakt</h1>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et, sed diam voluptua. At ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+         ]]>
+    </content>
+    <path>contact</path>
+    <lang>de</lang>
+    <description>Dieser Beschreibungstext soll den Inhalt dieses Dokumentes erläutern.</description>
+    <author>Peter Mueller</author>
+    <keywords>Kontakt, CMS</keywords>
+</page>
+<page name="impressum">
+    <id>2</id>
+    <title>Impressum</title>
+    <content>
+        <![CDATA[<h1>Impressum</h1>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam ertet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+         ]]>
+    </content>
+    <path>impressum</path>
+    <lang>de</lang>
+    <description>Dieser Beschreibungstext soll den Inhalt dieses Dokumentes erläutern.</description>
+    <author>Melvin Schmidt</author>
+    <keywords>Impressum, CMS</keywords>
+</page>
+<page name="form">
+    <id>3</id>
+    <title>Kontakformular</title>
+    <content>
+        <![CDATA[<h1>Kontaktformular</h1><div class="form">
+        <form id="form1" method="post" action="../../mdp2/uebung1/handleRequest.php">
+            <fieldset>
+                <legend>Anrede:</legend>
+                </br>
+                <div>
+                    <label for="frau">Frau</label>
+                    <input id="frau" name="anrede" value="frau" type="radio" checked>
+                    <label for="herr">Herr</label>
+                    <input id="herr" name="anrede" value="herr" type="radio">
+                </div>
+            </fieldset>
+            </br>
+            <div>
+                <label for="vorname">Vorname*:</label>
+                <input id="vorname" name="name" type="text" pattern="^[A-Za-z0-9_,.\'-]+$" title="unbekannte Zeichen enthalten"  onkeypress="firstToUpper(this)" required>
+            </div>
+            <div>
+                <label for="name">Name*:</label>
+                <input id="name" name="name" type="text" onkeypress="firstToUpper(this)" required>
+            </div>
+            <div>
+                <label for="email">E-Mail-Adresse*:</label>
+                <input id="email" name="email" type="email" required>
+            </div>
+            <div>
+                <label for="date">Geburtstag:</label>
+                <input id="date" name="date" type="date" onchange="calcAge(this)"><span id="age"></span>
+            </div>
+            <div>
+                <label for="kommentar">Kommentar:</label>
+                <textarea id="kommentar" name="kommentar" rows="10" cols="50"></textarea>
+            </div>
+            <input type="submit" value="absenden">
+        </form>
+    </div>
+    ]]>
+    </content>
+    <path>form</path>
+    <lang>de</lang>
+    <description>Dieser Beschreibungstext soll den Inhalt dieses Dokumentes erläutern.</description>
+    <author>Melvin Schmidt</author>
+<keywords>Kontakt, CMS</keywords>
+</page>
+</pages>
